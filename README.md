@@ -1,4 +1,5 @@
 # GS-TechUP
+# Não deu tempo de separar o commits nós alinhamos com vc na sala (Ana , Lara, Vini)
 Repositorio do projeto da GS do time Tech Up (Lara 95028, Vinicius Panessa 94591, Ana Eliza Perobelli 96277)
 
 
