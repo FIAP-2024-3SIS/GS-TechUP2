@@ -1,0 +1,83 @@
+<section>
+
+  <div class="filtro-geral">
+    <h1>Oceanic Data Explorer</h1>
+    <h1>Filters</h1>
+    <div class="filtro">
+      <div class="campos">
+
+        <label>Region</label>
+        <input type="text" [(ngModel)]=region>
+      </div>
+
+      <div class="campos">
+        <label>Species</label>
+        <input type="text" [(ngModel)]=specie>
+      </div>
+
+      <div class="campos">
+        <label>Conservation Status</label>
+        <input type="text" [(ngModel)]=conservation>
+      </div>
+
+      <div class="campos">
+        <label>Water temperature Min</label>
+        <input type="text" [(ngModel)]=tempMin>
+      </div>
+
+      <div class="campos">
+        <label>Water temperature Max</label>
+        <input type="text" [(ngModel)]=tempMax>
+      </div>
+
+      <div class="campos">
+        <label>pH Min</label>
+        <input type="text" [(ngModel)]=phMin>
+      </div>
+
+      <div class="campos">
+        <label>pH Max</label>
+        <input type="text" [(ngModel)]=phMax>
+      </div>
+
+      <div class="campos">
+        <label>Polution Levels</label>
+        <input type="text" [(ngModel)]=polution>
+      </div>
+    </div>
+    <button (onclick)=pesquisar()>Search</button>
+  </div>
+
+
+</section>
+
+
+<div class="table-all">
+  <table class="table">
+    <thead class="thead">
+      <h3>Data Table</h3>
+      <tr>
+        <th>nome</th>
+        <th>status</th>
+        <th>regiao</th>
+        <th>temperaturaAgua</th>
+        <th>ph</th>
+        <th>nivelPoluicao</th>
+        <th>especies</th>
+        <th>projetoConservacao</th>
+        <th>nomeProjeto</th>
+        <th>tipoProjeto</th>
+        <th>tipoParticipacao</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!-- <td>{{especie.nome}}</td> -->
+      </tr>
+
+
+    </tbody>
+
+
+  </table>
+</div>

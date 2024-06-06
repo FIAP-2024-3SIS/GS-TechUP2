@@ -1,0 +1,48 @@
+.filtro-geral {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  border: solid;
+  margin-bottom: 20px;
+}
+
+.filtro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.campos {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+
+}
+
+button {
+  margin-left: 10px;
+}
+
+.table-all {
+  border: solid;
+  padding: 1%;
+}
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thead {
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  width: 100%;
+}
+tr {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
